@@ -28,9 +28,7 @@ fun parseInput(input: List<String>): List<Card> = input.map { line ->
     )
 }
 
-fun part1(input: List<Card>): Int {
-    return input.sumOf { it.points }
-}
+fun part1(input: List<Card>): Int = input.sumOf { it.points }
 
 fun part2(input: List<Card>): Int {
     val queue: Deque<Card> = LinkedList(input)
