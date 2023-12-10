@@ -21,9 +21,10 @@ class Day03Test {
 .664.598..
     """.trimIndent()
     private val parseInput = parseInput(testInput.lines())
+
     @Test
     fun part1Example() {
-       assertEquals(4361, part1(parseInput))
+        assertEquals(4361, part1(parseInput))
     }
 
     @Test

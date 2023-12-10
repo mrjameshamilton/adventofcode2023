@@ -16,9 +16,10 @@ class Day02Test {
        Game 5: 6 red, 1 blue, 3 green; 2 blue, 1 red, 2 green
     """.trimIndent()
     private val parseInput = parseInput(testInput.lines())
+
     @Test
     fun part1Example() {
-       assertEquals(8, part1(parseInput))
+        assertEquals(8, part1(parseInput))
     }
 
     @Test

@@ -44,6 +44,7 @@ TTZ = (TTB, TTB)
 XXX = (XXX, XXX)
     """.trimIndent()
     private val parseInput3 = parseInput(testInput3.lines())
+
     @Test
     fun part1Example() {
         assertEquals(2, part1(parseInput))
@@ -53,6 +54,7 @@ XXX = (XXX, XXX)
     fun part1Example2() {
         assertEquals(6, part1(parseInput2))
     }
+
     @Test
     fun part2Example() {
         assertEquals(6, part2(parseInput3))

@@ -13,6 +13,7 @@ class Day06Test {
         Race(15, 40),
         Race(30, 200)
     )
+
     @Test
     fun part1Example() {
         assertEquals(288, part1(input))

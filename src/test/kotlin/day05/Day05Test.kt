@@ -43,9 +43,10 @@ humidity-to-location map:
 56 93 4
     """.trimIndent()
     private val parseInput = testInput.lines()
+
     @Test
     fun part1Example() {
-       assertEquals(35, part1(parseInput))
+        assertEquals(35, part1(parseInput))
     }
 
     @Test
